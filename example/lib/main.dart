@@ -1,8 +1,6 @@
-import 'package:flutter/material.dart';
-
 import 'package:drop_zone/drop_zone.dart';
-// ignore: avoid_web_libraries_in_flutter
-import 'dart:html' as html;
+import 'package:flutter/material.dart';
+import 'package:universal_html/html.dart' as html;
 
 void main() {
   runApp(MyApp());

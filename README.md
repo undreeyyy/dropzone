@@ -26,7 +26,7 @@ Add necessary imports and wrap any widget with `DropZone()` to use it as a dropz
 
 ```dart
 import 'package:drop_zone/drop_zone.dart';
-import 'dart:html' as html;
+import 'package:universal_html/html.dart' as html;
 
 DropZone(
     onDragEnter: () {
